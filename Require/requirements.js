@@ -1,23 +1,17 @@
 const express = require('express');
 const mongoose  = require('mongoose');
 const userSchema = new mongoose.Schema({
-email:{
+name:{
  type: String,
  required: true
 
 },
-name:{
+email:{
     type: String,
     required: true
    
    },
-username:{
-    type: String,
-    required: true
-   
-   },
-
-registerDate:{
+   userDate:{
     type: Date,
     required: true,
     default: Date.now
