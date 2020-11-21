@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/marcjefferson12121999/register/issues"
   },
-  "homepage": "https://github.com/marcjefferson12121999/register#readme"
+  "homepage": "https://github.com/marcjefferson12121999/register#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
 }
